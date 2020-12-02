@@ -35,20 +35,19 @@ namespace Aula_POO_Celular
         
           Console.ResetColor();
 
-          // Mostrar atributos e declarar métodos
+          // Mostrar atributos
           Console.ForegroundColor = ConsoleColor.Red;
           Console.WriteLine(cell.cor);
           Console.WriteLine(cell.modelo);
           Console.WriteLine(cell.tamanho);
           Console.WriteLine(cell.ligado);
           
-
+          // Declarar métodos
           cell.ligarCelular(cell.ligado);
           cell.desligarCelular(cell.ligado);
           cell.fazerLigacao(cell.ligado);
           cell.enviarMensagem(cell.ligado);
 
-        //   celular.ligar(celular.ligado1);
           Console.ResetColor();
         } // fim de Main
     }
